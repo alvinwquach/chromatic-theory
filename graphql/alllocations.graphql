@@ -1,0 +1,22 @@
+fragment location on Location {
+  instagram
+  yelp
+  booking
+  address
+  addresslinen
+  phone
+  email
+  sunday
+  monday
+  tuesday
+  wednesday
+  thursday
+  friday
+  saturday
+}
+
+query allLocations {
+  allLocation {
+    ...location
+  }
+}

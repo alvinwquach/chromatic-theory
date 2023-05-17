@@ -1,0 +1,13 @@
+fragment gallery on Gallery {
+  image {
+    asset {
+      url
+    }
+  }
+}
+
+query allGallerys {
+  allGallery {
+    ...gallery
+  }
+}

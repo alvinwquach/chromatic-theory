@@ -1,0 +1,10 @@
+fragment testimonial on Testimonial {
+  name
+  testimonial
+}
+
+query allTestimonials {
+  allTestimonial {
+    ...testimonial
+  }
+}

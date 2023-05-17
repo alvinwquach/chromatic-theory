@@ -1,0 +1,19 @@
+fragment about on About {
+  selfie {
+    asset {
+      url
+    }
+  }
+  heroImage {
+    asset {
+      url
+    }
+  }
+  storyRaw
+}
+
+query allAbouts {
+  allAbout {
+    ...about
+  }
+}
